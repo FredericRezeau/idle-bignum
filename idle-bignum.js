@@ -10,7 +10,7 @@
     // Power of 10 names (only multiple of 3 for Engineering Notation).
     // Using  Conway-Wechsler notation system. http://mrob.com/pub/math/largenum.html#conway-wechsler
     // Note: Any name added to the list will be picked up automatically by the BigNum class.
-    var powTenToName = {
+    const powTenToName = {
         "0": "",
         "3": "thousand",
         "6": "million",
@@ -115,8 +115,8 @@
         "303": "centillion"
     };
 
-    var MAX_MAGNITUDE = 12; // Max power magnitude diff for operands.
-    var TEN_CUBED = 1e3; // Used for normalizing numbers.
+    const MAX_MAGNITUDE = 12; // Max power magnitude diff for operands.
+    const TEN_CUBED = 1e3; // Used for normalizing numbers.
 
     // Big number.
     namespace.BigNum = function (value, exp) {
