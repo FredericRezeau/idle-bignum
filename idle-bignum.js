@@ -216,7 +216,7 @@
 
     // toString.
     namespace.BigNum.prototype.toString = function () {
-        return this.value.toString() + "^" + powTenToName[this.exp.toString()];
+        return this.value.toString() + " " + powTenToName[this.exp.toString()];
     };
 
 })(window.Idle = window.Idle || {});
