@@ -112,7 +112,17 @@
         "294": "septenonagintillion",
         "297": "octononagintillion",
         "300": "novenonagintillion",
-        "303": "centillion"
+        "303": "centillion",
+        "306": "uncentillion",
+        "309": "duocentillion",
+        "312": "trescentillion",
+        "315": "quattuorcentillion",
+        "318": "quincentillion",
+        "321": "sexcentillion",
+        "324": "septencentillion",
+        "327": "octocentillion",
+        "330": "novencentillion",
+        "333": "decicentillion"
     };
 
     const MAX_MAGNITUDE = 12; // Max power magnitude diff for operands.
